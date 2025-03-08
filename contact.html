@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+    <head> 
+        <title>Contact Info</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Dancing+Script:wght@400..700&family=Itim&family=Pacifico&display=swap" rel="stylesheet">
+<style>      
+ html,body{
+  height: 100%;
+  width: 100%;
+  margin:0;
+  padding: 0;
+}
+  /*fonts*/
+  h1 {
+  font-family: "Pacifico", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+body {
+  font-family: "Itim", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.btn {
+  background: #dedece;
+  background-image: -webkit-linear-gradient(top, #dedece, #a639d4);
+  background-image: -moz-linear-gradient(top, #dedece, #a639d4);
+  background-image: -ms-linear-gradient(top, #dedece, #a639d4);
+  background-image: -o-linear-gradient(top, #dedece, #a639d4);
+  background-image: linear-gradient(to bottom, #dedece, #a639d4);
+  -webkit-border-radius: 6;
+  -moz-border-radius: 6;
+  border-radius: 6px;
+  font-family: Georgia;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 5px 16px 5px 16px;
+  text-decoration: none;
+}
+.btn:hover {
+  background: #3cb0fd;
+  text-decoration: none;
+}
+
+.btnn {
+  background: #dedece;
+  background-image: -webkit-linear-gradient(top, #dedece, #a639d4);
+  background-image: -moz-linear-gradient(top, #dedece, #a639d4);
+  background-image: -ms-linear-gradient(top, #dedece, #a639d4);
+  background-image: -o-linear-gradient(top, #dedece, #a639d4);
+  background-image: linear-gradient(to bottom, #dedece, #a639d4);
+  -webkit-border-radius: 6;
+  -moz-border-radius: 6;
+  border-radius: 6px;
+  font-family: Georgia;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 5px 16px 5px 16px;
+  text-decoration: none;
+}
+
+.btnn:hover {
+  background: #3cb0fd;
+  text-decoration: none;
+}
+ /*contact styles */
+  body{
+    background-image: url(./cal.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+   background-position: center;
+   
+  }
+  .form{
+background-color: white;
+width: 400px;
+opacity: 0.9;
+margin: 50px auto;
+padding: 20px;
+text-align: center;
+  }
+
+  /*footer*/
+  .footer {
+   background-color:black;
+    color:  white;
+    padding-top: 20px;
+    padding-bottom: 60px;
+    text-align: center;
+    opacity: 0.7;
+  }
+  .social-media {
+    margin-top: 10px;
+  }
+  .social-media a {
+    text-decoration: none;
+    color: white;
+    margin: 0 15px;
+    font-size: 18px;
+  }
+  .social-media a:hover {
+    color: #CB9DF0; 
+  }
+  .social-icon {
+    padding: 5px 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+  }
+   </style>
+   </head>
+   <body >
+      <div class="form">
+        <h1 style="text-align: center;"> Feedback :</h1>
+          <form action="mailto:farhanataj7771@gmail.com" method="post" action="index.html" enctype="text/plain" > 
+                <label> Enter Username </label>
+                <input type="text" name="username"  required placeholder="robin"/>
+
+                <br/><br/>
+                <label> Enter Password </label>
+                <input type="password" name="password" placeholder="robin23"/>
+                <br/><br/>
+                <label> Enter Email_id </label>
+                <input type="mail" name="mail" required placeholder="robin23@gmail.com"/>
+                <br/><br/>
+                <tr>
+                    <label> Enter Address  </label>
+                    <td> <textarea cols="20" rows="5"> </textarea></td>
+                </tr>
+                <br/><br/>  
+                <input class="btnn"  type="submit" value="Submit" /> 
+                <button class="btn"><a href="index.html" style="color: white; text-decoration: none;margin: 5px;">Back</button></a>
+                </form>
+       </div>
+<!--footer-->
+  <div class="footer">
+    <h1 style="text-align: center;">My Contact</h1>
+      <div class="social-media">
+        <a href="https://wa.me/"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRyEyCkQ8gSOW4T2TUfHLqty2IlB8p7LXkyFC60UPzAVQ&s" width="23px" alt="WhatsApp"> WhatsApp Number</a>
+        <a href="https://www.instagram.com/"><img src="https://img.freepik.com/free-vector/instagram-icon_1057-2227.jpg?size=338&ext=jpg&ga=GA1.1.553209589.1715558400&semt=ais_user" height="24px" alt="Instagram">Instagram Account </a>
+        <a href="mailto:farhanataj7771@gmail.com"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRTNXlihjYg1nQFoqpruGmfUAtp_bbAJH_kugVBmgPEqw&s" height="24px" alt="Email-id">E-mail</a>
+      </div>
+  </div>  
+    </body>
+</html>

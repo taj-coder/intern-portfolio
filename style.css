@@ -1,0 +1,186 @@
+body{
+    text-align: center;   
+}
+html,body{
+  height: 100%;
+  width: 100%;
+  margin:0;
+  padding: 0;
+}
+/*hero*/
+.top-container{
+ 
+  background-image:url(./main.webp);
+  /*background-color: #71c3ed;*/
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* width:100%;
+  height:600px; */
+    position: relative;
+    text-align: center;
+    /* padding-top: 90px;
+    padding-bottom: 250px;     */
+    width:100%;
+    height:725px;
+}
+
+.top-flower{
+    position: absolute;
+    right: 20px;
+    top: 20px;
+}
+.bottom-flower{
+    position: absolute;
+    left: 30px;
+    bottom: 30%;
+  
+}
+.flower{
+  position: relative;
+  width: 13%;
+    text-align: right;
+    
+}
+h2{
+    font-family: "Itim", cursive;
+    font-weight: 350;
+    font-style: normal;
+  }
+ 
+h1{
+  font-family: "Dancing Script", cursive;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  color:#FFC107;
+  font-style: normal;
+}
+
+pre{
+    font-family: "Itim", cursive;
+    font-weight: 400;
+    font-style: normal;
+  
+  }
+  p{
+    font-family: "Itim", cursive;
+    font-weight: 400;
+    font-style: normal;
+  
+  }
+  hr{
+    border:dotted rgb(215, 208, 208) 8px;
+    border-bottom: none;
+    width: 5%;
+    margin: 100px auto;
+  }
+/* .skill-container{
+    width:50%;
+    margin:auto;
+} */
+  .profile{
+    width: 50%;
+    margin: 100px auto 100px auto;
+    text-align: center;
+    }
+.skill-row{
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+}
+.coding{
+  width: 20%;
+  float: left;
+  margin-right: 30px;
+  border-radius: 100%;
+}
+.crik{
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+  border-radius: 100%;
+}
+
+
+/* Footer  */
+footer {
+    padding-top: 90px;
+    padding-bottom: 10px;
+    /*width:100%;
+    height:200px;*/
+    text-align: center;
+    background-image: url(./main.webp);
+    background-color: #6db5e5;
+ /* background-repeat: no-repeat;
+  background-size: cover;*/
+  } 
+  .copyright {
+    font-size: 15px;
+    margin-bottom: 15px;
+    color: black;
+    font-family: "Itim", cursive;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .social-media {
+    margin-top: 10px;
+  }
+  
+  .social-media a {
+    text-decoration: none;
+    color: black;
+    margin: 0 15px;
+    font-size: 25px;
+  }
+  
+  .social-media a:hover {
+    color: #CB9DF0; 
+  }
+  .social-link{
+    font-size: 30px;
+  }
+  
+  .social-icon {
+    padding: 5px 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+  }
+  
+  .social-icon.facebook:hover {
+    background-color: white; 
+  }
+  
+  .social-icon.twitter:hover {
+    background-color: white;   
+  }
+  
+  .social-icon.instagram:hover {
+    background-color: white; 
+  }
+.btn {
+  background: #3498db;
+  background-image: -webkit-linear-gradient(top, #3498db, #ed1153);
+  background-image: -moz-linear-gradient(top, #3498db, #ed1153);
+  background-image: -ms-linear-gradient(top, #3498db, #ed1153);
+  background-image: -o-linear-gradient(top, #3498db, #ed1153);
+  background-image: linear-gradient(to bottom, #3498db, #ed1153);
+  -webkit-border-radius: 14;
+  -moz-border-radius: 14;
+  border-radius: 14px;
+  font-family: Georgia;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 24px 11px 25px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #261dde;
+  background-image: -webkit-linear-gradient(top, #261dde, #153fe6);
+  background-image: -moz-linear-gradient(top, #261dde, #153fe6);
+  background-image: -ms-linear-gradient(top, #261dde, #153fe6);
+  background-image: -o-linear-gradient(top, #261dde, #153fe6);
+  background-image: linear-gradient(to bottom, #261dde, #153fe6);
+  text-decoration: none;
+}
+ 
