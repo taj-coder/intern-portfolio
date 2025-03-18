@@ -4,3 +4,4 @@ Welcome to my personal portfolio website! This repository contains the source co
 Here are some of annexure of it..
 
 ![image Alt](https://github.com/taj-coder/intern-portfolio/blob/main/Screenshot%202025-01-26%20235305.png)
+![image Alt](https://github.com/taj-coder/intern-portfolio/blob/main/Screenshot%202025-01-26%20235217.png)
